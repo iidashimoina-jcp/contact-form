@@ -75,10 +75,11 @@ h2 {
   padding: 0.6rem;
   border: 1px solid #999;
   border-radius: 0.2rem;
-  line-height: 1.2;
+  line-height: 1.6;
   resize: vertical;
 }
-.form-group input[type="text"] {
+.form-group input[type="text"],
+.form-group input[type="email"] {
   width: 100%;
   padding: 0.4rem 0.6rem;
   border: 1px solid #999;
@@ -86,7 +87,8 @@ h2 {
   line-height: 1.6;
 }
 .form-group textarea:focus,
-.form-group input[type="text"]:focus {
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus {
   border: 1px solid #69f;
   outline: 1px solid #69f;
 }
